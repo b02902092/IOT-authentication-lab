@@ -53,11 +53,9 @@ def main():
     ssl_verify()
     print 'ssl_verify time =', time.clock() - start_time, 'seconds'   
 
-'''
     start_time = time.clock()
     req_verify()
     print 'req_verify time =', time.clock() - start_time, 'seconds'
-'''
 
 if __name__ == '__main__':
     main()
